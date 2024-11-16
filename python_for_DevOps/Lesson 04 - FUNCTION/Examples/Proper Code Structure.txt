@@ -1,0 +1,55 @@
+1) Imports
+    Import random
+2) Variables and inputs (Global)
+    num = 0
+    name = input(“Name“)
+    list = ["John","Ben","Jul"]
+3) Functions
+4) Main
+    if __name__ == '__main__':
+    main()
+
+
+Built-in functions
+=====================
+1) abs(x)
+2) all(iterable)
+3) any(iterable)
+4) ascii(object)
+5) bin(x)
+6) bool(x)
+7) bytearray(x)
+8) bytes(x)
+9) chr(x)
+10) compile(source, filename, mode, dont_inherit, flag)
+11) complex(real, imag)
+12) delattr(object, name)
+13) dict()
+14) dir(object)
+15) divmod(a, b)
+16) enumerate(iterable, start=0)
+17) eval(expression, globals=None, locals=None)
+18) exec(object, globals=None, locals=None)
+19) filter(function, iterable)
+20) float(x)
+21) format(value, format_spec)
+22) frozenset(iterable)
+23) print(): Used to display output or values to the console.
+24) input(): Allows the user to enter input from the console.
+25) len(): Returns the length of a string, list, tuple, or any iterable.
+26) type(): Returns the type of an object.
+27) int(), float(), str(), bool(): Convert values to integer, float, string, or boolean types, respectively.
+range(): Generates a sequence of numbers within a specified range.
+sum(): Returns the sum of all elements in an iterable.
+max(), min(): Returns the maximum or minimum value from an iterable.
+sorted(): Returns a sorted list of elements from an iterable.
+abs(): Returns the absolute value of a number.
+round(): Rounds a number to a specified precision.
+zip(): Combines multiple iterables into a single iterable of tuples
+enumerate(): Returns an iterable of tuples containing indices and values from an iterable.
+map(): Applies a function to each item in an iterable.
+filter(): Filters elements from an iterable based on a specified condition.
+all(), any(): Returns True if all or any elements in an iterable are true, respectively.
+str.format(): Formats a string by replacing placeholders with values.
+list(), tuple(), set(), dict(): Converts an iterable to a list, tuple, set, or dictionary, respectively.
+open(): Opens a file and returns a file object.

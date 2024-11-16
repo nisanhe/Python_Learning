@@ -1,0 +1,57 @@
+The os module in Python provides a way to interact with the operating system. It offers a variety of functions for tasks like file and directory operations, process management, and environment variable manipulation.
+
+Commonly Used Functions
+
+File and Directory Operations:
+==============================
+1) os.getcwd(): Gets the current working directory.
+2) os.chdir(path): Changes the current working directory to the specified path.
+3) os.listdir(path): Returns a list of files and directories in the specified path.   
+4) os.mkdir(path): Creates a new directory at the specified path.
+5) os.makedirs(path): Creates directories recursively.   
+6) os.rmdir(path): Removes an empty directory.
+7) os.removedirs(path): Removes directories recursively.
+8) os.rename(src, dst): Renames a file or directory.
+9) os.remove(path): Removes a file.
+10) os.path.exists(path): Checks if a path exists.
+11) os.path.isfile(path): Checks if a path is a file.
+12) os.path.isdir(path): Checks if a path is a directory.
+13) os.path.join(path1, path2, ...): Joins paths securely, handling platform-specific separators.
+
+Environment Variables:
+========================
+1) os.environ: A dictionary-like object containing environment variables.
+2) os.getenv(key): Gets the value of an environment variable.
+3) os.putenv(key, value): Sets an environment variable.
+
+Process Management:
+===================
+1) os.system(command): Executes a system command.
+2) os.popen(command): Opens a pipe to a process.
+
+DevOps Use Cases
+In DevOps, the os module is extensively used for various tasks, including:
+
+Script Automation:
+==================
+Creating, modifying, and deleting files and directories.
+Managing configuration files.
+Automating deployment processes.
+
+System Administration:
+======================
+Checking disk space and usage.
+Monitoring system processes.
+Configuring system settings.
+
+Infrastructure as Code (IaC):
+=============================
+Provisioning servers and virtual machines.
+Deploying applications and services.
+Managing network configurations.
+
+Continuous Integration/Continuous Delivery (CI/CD):
+===================================================
+Building and testing code.
+Deploying applications to production.
+Automating the release process.

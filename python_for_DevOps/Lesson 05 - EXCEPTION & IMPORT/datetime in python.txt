@@ -1,0 +1,23 @@
+
+### Overview
+    The datetime library in Python is a powerful tool for working with dates and times. It provides classes for representing dates, times, and time intervals, as well as functions for manipulating these objects.
+### Classes
+#### `datetime` class
+    The `datetime` class represents a date and time. It has attributes for year, month, day hour, minute, second, and microsecond.
+#### `date` class
+    The `date` class represents a date. It has attributes for year, month, and day.
+#### `time` class
+    The `time` class represents a time. It has attributes for hour, minute, second, and microsecond.
+#### `timedelta` class
+    The `timedelta` class represents a time interval. It has attributes for days, seconds, and microseconds.
+### Functions
+#### `datetime.now()`
+    Returns the current date and time.
+#### `datetime.fromtimestamp()`
+    Returns a `datetime` object from a Unix timestamp.
+#### `datetime.strptime()`
+    Converts a string to a `datetime` object using a format string.
+#### `datetime.strftime()`
+    Converts a `datetime` object to a string using a format string.
+
+
